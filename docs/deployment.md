@@ -17,3 +17,9 @@ python -m http.server 8000 --bind 127.0.0.1 --directory frontend
 ```
 
 To use an installed Chromium browser, run `CHROMIUM_PATH=/usr/bin/chromium npm test`.
+
+## Repository protections
+
+Changes to `main` require a pull request, an up-to-date branch, the GitHub Actions `checks` result, and resolved discussions. Protections apply to administrators; force pushes and branch deletion are blocked. Reviewer approvals are not required because the repository has one maintainer.
+
+Dependency audits run on changes and weekly. GitHub secret scanning, push protection, dependency alerts, and security updates are enabled. PR and deployment validation jobs use read-only repository permissions; only the deployment job receives Pages and OIDC permissions. Deployment is restricted to `main`. Checkout credentials are not persisted.
