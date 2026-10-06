@@ -6,7 +6,7 @@ Keep account details, domain names, DNS values, provider credentials, and deadli
 - [x] Remove the learning-project visitor counter.
 - [x] Adapt frontend tests for static hosting.
 - [x] Add CI checks and a GitHub Pages deployment workflow publishing only `frontend/`.
-- [ ] Enable Pages and test its temporary URL.
+- [x] Enable Pages and test its temporary URL.
 - [ ] Back up the existing DNS configuration privately.
 - [ ] Verify domain ownership and configure the custom domain.
 - [ ] Prepare replacement website DNS and preserve email records.
