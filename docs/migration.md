@@ -2,10 +2,10 @@
 
 Keep account details, domain names, DNS values, provider credentials, and deadlines in private operational notes.
 
-- [ ] Copy the frontend, retaining source attribution.
-- [ ] Remove the learning-project visitor counter.
-- [ ] Adapt frontend tests for static hosting.
-- [ ] Add CI checks and a GitHub Pages deployment workflow publishing only `frontend/`.
+- [x] Copy the frontend, retaining source attribution.
+- [x] Remove the learning-project visitor counter.
+- [x] Adapt frontend tests for static hosting.
+- [x] Add CI checks and a GitHub Pages deployment workflow publishing only `frontend/`.
 - [ ] Enable Pages and test its temporary URL.
 - [ ] Back up the existing DNS configuration privately.
 - [ ] Verify domain ownership and configure the custom domain.

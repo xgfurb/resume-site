@@ -2,7 +2,7 @@
 
 Static resume website intended for GitHub Pages.
 
-This repository contains the initial scaffold. Website migration and deployment are pending.
+The frontend is migrated for static hosting. GitHub Actions checks changes and deploys `frontend/` to GitHub Pages. Custom-domain and DNS migration remain separate steps.
 
 ## Structure
 
@@ -13,3 +13,11 @@ This repository contains the initial scaffold. Website migration and deployment 
 - `docs/`: general migration and deployment instructions.
 
 See [the migration checklist](docs/migration.md) for remaining work.
+
+## Development
+
+See [deployment and local development](docs/deployment.md).
+
+## Attribution
+
+The frontend was adapted from the original cloud-resume learning project, commit `2c1c2a0`, by Chris Zuck. Layout and theme functionality are retained; the visitor-counter backend has been removed.
