@@ -7,7 +7,7 @@
   },
   "devDependencies": {
     "htmlhint": "1.9.2",
-    "playwright": "1.63.0"
+    "playwright": "1.64.0"
   },
   "overrides": {
     "brace-expansion": "5.0.12"
